@@ -287,8 +287,57 @@ docker rmi gpu-dl-workspace:tf2.15
 
 ---
 
-## Kaynaklar
+## 🔗 Kaynaklar
 
-* NVIDIA Container Toolkit: [https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/)
-* TensorFlow GPU kurulum sayfası: [https://www.tensorflow.org/install/gpu](https://www.tensorflow.org/install/gpu)
-* PyTorch kurulum sayfası: [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+### 🔧 Docker & NVIDIA Kurulumu
+
+* **Docker Kurulum Dökümantasyonu**:
+  [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+* **NVIDIA Container Toolkit (nvidia-docker)**:
+  [https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/)
+* **NVIDIA Container Toolkit GitHub (güncel repo)**:
+  [https://github.com/NVIDIA/nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
+* **NVIDIA CUDA Docker İmajları (Docker Hub)**:
+  [https://hub.docker.com/r/nvidia/cuda](https://hub.docker.com/r/nvidia/cuda)
+
+---
+
+### 📦 TensorFlow (GPU Destekli)
+
+* **Resmi TensorFlow Kurulum Rehberi**:
+  [https://www.tensorflow.org/install](https://www.tensorflow.org/install)
+* **TensorFlow GPU Desteği ve Sürümler Uyumluluğu**:
+  [https://www.tensorflow.org/install/source#gpu](https://www.tensorflow.org/install/source#gpu)
+* **TensorFlow + Docker Kullanımı**:
+  [https://www.tensorflow.org/install/docker](https://www.tensorflow.org/install/docker)
+
+---
+
+### 🔥 PyTorch (GPU Destekli)
+
+* **Resmi PyTorch Kurulum Sayfası**:
+  [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+* **PyTorch Docker İmajları (NVIDIA destekli)**:
+  [https://hub.docker.com/r/pytorch/pytorch](https://hub.docker.com/r/pytorch/pytorch)
+
+---
+
+### 🧰 VS Code — Remote Container Geliştirme
+
+* **Remote - Containers (Dev Containers) Eklentisi**:
+  [https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+* **VS Code ile Docker Geliştirme Ortamı Oluşturma**:
+  [https://code.visualstudio.com/docs/devcontainers/containers](https://code.visualstudio.com/docs/devcontainers/containers)
+
+---
+
+### 🐳 Ekstra Faydalı Bağlantılar
+
+* **NVIDIA Sürücü Uyumluluk Tablosu (CUDA / cuDNN)**:
+  [https://docs.nvidia.com/deeplearning/cudnn/support-matrix/index.html](https://docs.nvidia.com/deeplearning/cudnn/support-matrix/index.html)
+* **cuDNN İndir (NVIDIA hesabı gerekli)**:
+  [https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)
+* **Docker Compose (çoklu servis için)**:
+  [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
+* **Linux Dağıtımlarına Göre CUDA Kurulumu (manuel)**:
+  [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
