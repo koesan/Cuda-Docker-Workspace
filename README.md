@@ -16,21 +16,6 @@ Bu proje, GPU destekli TensorFlow ve PyTorch ortamını doğrudan ana bilgisayar
 
 ---
 
-## 0) Kısa Kontroller (host)
-
-```bash
-# GPU sürücüsü çalışıyor mu?
-nvidia-smi
-
-# Docker kurulu mu?
-docker --version
-
-# Docker daemon çalışıyor mu?
-systemctl status docker
-```
-
----
-
 ## 1) Docker Kurulumu (kısa)
 
 Aşağıdakiler en basit ve yaygın yollar. İstediğin dağıtıma göre uygula.
